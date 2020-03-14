@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Show Even Number</title>
+</head>
+<body>
+	<p>Open the console to see the message</p>
+<script>
+	//----------- Creating function -------------
+	function pares(x , y) {
+		while(x <= y){
+
+			var resto = x%2;
+			if (resto == 0) {
+			//--------print even number------------
+				console.log('Even number '+ x);
+			}
+			x = x+1;
+		}
+	}
+	
+	pares(1,10);
+</script>
+</body>
+</html>
