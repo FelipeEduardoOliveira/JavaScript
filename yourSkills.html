@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Your Skills
+	</title>
+</head>
+<body>
+<p>Open the console to see the message</p>
+	<script>
+		// ----------CREATING VARIABLE SKILLS---------
+		var skills = ["Javascript", "ReactJS", "React Native", "C#", "HTML", "CSS", "Java", "Python", "PHP"];
+		// ----------CREATING FUNCTION temHabilidade---------
+function temHabilidade(habilidade) {
+	
+		var result = skills.indexOf(habilidade);
+
+		if (result == -1) {
+			console.log('Não tem essa habilidade');
+		}else{
+			console.log('Tem essa habilidade ' + habilidade);
+		}
+}
+
+
+temHabilidade('C#');
+	</script>
+</body>
+</html>
